@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/XLargeLauncher.iml" filepath="$PROJECT_DIR$/XLargeLauncher.iml" />
-      <module fileurl="file://I:\TOUHID\Workspace\XLargeLauncher\XLargeLauncher.iml" filepath="I:\TOUHID\Workspace\XLargeLauncher\XLargeLauncher.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://I:\TOUHID\Workspace\XLargeLauncher\app\app.iml" filepath="I:\TOUHID\Workspace\XLargeLauncher\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medalert/medalert.iml" filepath="$PROJECT_DIR$/medalert/medalert.iml" />
     </modules>
   </component>
 </project>

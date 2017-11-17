@@ -6,5 +6,6 @@ package study.sayma.xlargelauncher.utils
 object C {
     @JvmField
     val KEY_EMERGENCY = "emergency"
+    val KEY_ALARM_DATA = "alarm_data"
 
 }
