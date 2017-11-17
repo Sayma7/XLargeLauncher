@@ -1,11 +1,11 @@
 package study.sayma.xlargelauncher.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.List;
 
@@ -43,8 +43,10 @@ public class AppListAdapter extends RecyclerView.Adapter<AppViewHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "App clicked: " + appItem.getPkg(),
-                        Toast.LENGTH_SHORT).show();
+                Intent launchIntent = context.getPackageManager()
+                        .getLaunchIntentForPackage(appItem.getPkg());
+                if (launchIntent != null)
+                    context.startActivity(launchIntent);
             }
         });
     }

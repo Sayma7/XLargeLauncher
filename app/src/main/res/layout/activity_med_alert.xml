@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_20_percent"
+    tools:ignore="UnusedAttribute">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        app:title="@string/tvMedicineAlert" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/light_ash"
+                android:elevation="4dp"
+                android:padding="4dp">
+
+                <EditText
+                    android:id="@+id/txtMedNameEntry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:hint="@string/txtMedNameEntry"
+                    android:padding="8dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvTimeEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="4dp"
+                android:padding="8dp"
+                android:background="@color/light_ash"
+                android:text="@string/tvTimeEntry" />
+
+
+            <CheckBox
+                android:id="@+id/checkbox_everyday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/everyday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/saturday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/sunday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/monday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/tuesday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/wednesday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/thursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/thursday"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="chonCheckboxClicked"
+                android:padding="4dp"
+                android:text="@string/friday"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch_med_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:elevation="4dp"
+                android:padding="4dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

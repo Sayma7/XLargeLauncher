@@ -1,4 +1,25 @@
 <resources>
+
     <string name="app_name">XLarge Launcher</string>
     <string name="application_icon">Application Icon</string>
+    <string name="new_emergency_number">New Emergency Number</string>
+    <string name="add">Add</string>
+    <string name="add_emergency_numbers">Add Emergency Numbers</string>
+    <string name="tvEventReminder">Event Reminder</string>
+    <string name="tvEventDescription">Write Description here</string>
+    <string name="btnSave">Save</string>
+    <string name="btnClose">Close</string>
+    <string name="tvMedicineAlert">Medicine Alert</string>
+    <string name="txtMedNameEntry">Medicine Name</string>
+    <string name="tvTimeEntry">Set the Time here</string>
+    <string name="everyday">Everyday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="btn_med_ok">Ok</string>
+
 </resources>
