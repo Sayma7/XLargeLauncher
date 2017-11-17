@@ -1,4 +1,5 @@
 package study.sayma.xlargelauncher.activity
+
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.os.Bundle
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                                     pm.getApplicationIcon(app)))
                 }
             }
+            Collections.sort(appList, { a1, a2 -> a1.name.compareTo(a2.name) })
             return appList
         }
 
@@ -53,5 +55,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(
                     Intent(this@MainActivity, AddEmgNumberActivity::class.java))
         })
+    }
+
+    override fun onBackPressed() {
+        // super.onBackPressed()
+    }
+
+    override fun onUserLeaveHint() {
+        // super.onUserLeaveHint()
     }
 }

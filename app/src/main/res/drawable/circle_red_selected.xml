@@ -3,7 +3,22 @@
     <item>
         <shape android:shape="oval">
 
-            <solid android:color="@color/red_soothing" />
+            <solid android:color="@color/DarkRed" />
+            <corners android:radius="4dp" />
+
+            <size
+                android:width="32dp"
+                android:height="32dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp">
+        <shape android:shape="oval">
+
+            <solid android:color="@color/Chocolate" />
             <corners android:radius="4dp" />
 
             <size
@@ -18,7 +33,22 @@
         android:top="16dp">
         <shape android:shape="oval">
 
-            <solid android:color="@color/OrangeRed" />
+            <solid android:color="@color/DarkRed" />
+            <corners android:radius="4dp" />
+
+            <size
+                android:width="32dp"
+                android:height="32dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="24dp"
+        android:left="24dp"
+        android:right="24dp"
+        android:top="24dp">
+        <shape android:shape="oval">
+
+            <solid android:color="@color/Red" />
             <corners android:radius="4dp" />
 
             <size
@@ -33,7 +63,7 @@
         android:top="32dp">
         <shape android:shape="oval">
 
-            <solid android:color="@color/Red" />
+            <solid android:color="@color/OrangeRed" />
             <corners android:radius="4dp" />
 
             <size
@@ -48,37 +78,7 @@
         android:top="40dp">
         <shape android:shape="oval">
 
-            <solid android:color="@color/DarkRed" />
-            <corners android:radius="4dp" />
-
-            <size
-                android:width="32dp"
-                android:height="32dp" />
-        </shape>
-    </item>
-    <item
-        android:bottom="56dp"
-        android:left="56dp"
-        android:right="56dp"
-        android:top="56dp">
-        <shape android:shape="oval">
-
-            <solid android:color="@color/Chocolate" />
-            <corners android:radius="4dp" />
-
-            <size
-                android:width="32dp"
-                android:height="32dp" />
-        </shape>
-    </item>
-    <item
-        android:bottom="72dp"
-        android:left="72dp"
-        android:right="72dp"
-        android:top="72dp">
-        <shape android:shape="oval">
-
-            <solid android:color="@color/DarkRed" />
+            <solid android:color="@color/red_soothing" />
             <corners android:radius="4dp" />
 
             <size

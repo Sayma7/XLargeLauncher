@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
 import study.sayma.xlargelauncher.R
+import study.sayma.xlargelauncher.activity.EmergencySendSmsActivity
 import study.sayma.xlargelauncher.utils.C
 
 
@@ -18,11 +19,11 @@ class EmergencyWidgetService : AppWidgetProvider() {
     override fun onUpdate(context: Context?, appWidgetManager: AppWidgetManager?, appWidgetIds: IntArray?) {
         super.onUpdate(context, appWidgetManager, appWidgetIds)
 
-        val intent = Intent(context, EmergencyService::class.java).setAction(C.KEY_EMERGENCY)
-        val pendingIntent = PendingIntent.getService(context, 0,
-                intent, PendingIntent.FLAG_ONE_SHOT)
+        val intent = Intent(context, EmergencySendSmsActivity::class.java).setAction(C.KEY_EMERGENCY)
+        val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)
 
-        var rv = RemoteViews(context?.packageName, R.layout.widget_emergency_button)
+        val rv = RemoteViews(context?.packageName, R.layout.widget_emergency_button)
         rv.setOnClickPendingIntent(R.id.flEmergencyClicker, pendingIntent)
+        appWidgetManager?.updateAppWidget(appWidgetIds, rv)
     }
 }
