@@ -6,7 +6,6 @@
     <color name="colorAccent">#57cdef</color>
 
 
-
     <color name="error_color">#DD2C00</color>
     <color name="warning_color">#fff57f17</color>
 
@@ -225,8 +224,6 @@
     <color name="background_tab_pressed">#6633B5E5</color>
     <color name="radio_selected_geneder">#ffBCBCBC</color>
     <color name="light_ash">#FFEAEAEA</color>
-
-
 
     <color name="darkBlue">#605CA8</color>
     <color name="lightRed">#EB5344</color>

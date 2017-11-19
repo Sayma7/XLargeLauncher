@@ -25,7 +25,7 @@ class MedAlertActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener
 
         tvTimeEntry.setOnClickListener({ _ -> showTimePicker() })
 
-        switch_med_ok.setOnCheckedChangeListener { _, isChecked ->
+        switchMedAlert.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked)
                 setAlarm()
         }

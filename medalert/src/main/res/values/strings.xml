@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MedAlert</string>
+
+    <string name="tvMedicineAlert">Medicine Alert</string>
+    <string name="txtMedNameEntry">Medicine Name</string>
+    <string name="tvTimeEntry">Set the Time here</string>
+    <string name="everyday">Everyday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="btn_med_ok">OK</string>
+    <string name="add_more_alert">Add More Alert</string>
+    <string name="no_alert_added_so_far_nplease_add_some_alerts_first">No Alert Added So Far!\nPlease add some alerts first.</string>
+    <string name="delete_medicine_alert">Delete Medicine Alert</string>
 </resources>

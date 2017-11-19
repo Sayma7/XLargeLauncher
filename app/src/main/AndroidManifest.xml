@@ -36,15 +36,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/emergency_widget_info" />
         </receiver>
-
-        <activity android:name=".activity.MedAlertActivity"
-            android:icon="@mipmap/ic_launcher"
-            android:label="MedAlert">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".activity.ShowAlarmActivity"/>
     </application>
 
